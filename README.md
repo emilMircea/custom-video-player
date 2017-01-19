@@ -4,4 +4,4 @@
 
 The progress bar, play/pause buttons, volume and playback rate have been modified.
 
-Play with it at: future-link-on-github
+Play with it at: [https://emilmircea.github.io/custom-video-player/](https://emilmircea.github.io/custom-video-player/)
