@@ -18,19 +18,21 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+label {
+  color: white;
+  /*background: red;*/
+}
 .title {
   color: white;
   font-family: 'Arsenal', sans-serif;
   font-size: 3em;
   letter-spacing: 5px;
-
 }
 
 .player {
   max-width:750px;
-  border:5px solid #DD2476;
-  border-radius: 5px;
+  border: 5px solid #DD2476;
+  border-radius: 9px;
   box-shadow:0 0 20px rgba(0,0,0,0.2);
   position: relative;
   font-size: 0;
@@ -55,6 +57,7 @@ body {
 
 .player__button:focus {
   border-color: #FF512F;
+  border-radius: 5px;
 }
 
 .player__slider {
@@ -64,10 +67,10 @@ body {
 
 .player__controls {
   display:flex;
-  position: absolute;
-  bottom:0px;
+  /*position: absolute;*/
+  /*bottom:0px;*/
+  /*transform: translateY(100%) translateY(-5px);*/
   width: 100%;
-  transform: translateY(100%) translateY(-5px);
   transition: all .3s;
   flex-wrap:wrap;
   background:rgba(0,0,0,0.1);
@@ -82,7 +85,7 @@ body {
 }
 
 .player__controls > * {
-  flex:1;
+  flex: 1;
 }
 
 .progress {
@@ -110,6 +113,7 @@ input[type=range] {
   background:transparent;
   width: 100%;
   margin: 0 5px;
+  align-self: center;
 }
 input[type=range]:focus {
   outline: none;
